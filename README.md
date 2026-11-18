@@ -36,4 +36,3 @@ Site desenvolvido em PHP para apresentação e administração de veículos. O p
 - `conectar.php` — conexão com o banco.
 - `style.css`, `imgs/` e `font/` — aparência e recursos visuais.
 
-O projeto contém credenciais de banco no código público e precisa de revisão de segurança antes de qualquer publicação. Se ainda estiverem ativas, revogue ou troque essas credenciais. Use apenas um banco isolado de desenvolvimento durante os testes.
