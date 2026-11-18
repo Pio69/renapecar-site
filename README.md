@@ -19,7 +19,7 @@ Site desenvolvido em PHP para apresentação e administração de veículos. O p
 1. Instale PHP com a extensão MySQLi e um servidor MySQL compatível.
 2. Clone ou baixe o repositório.
 3. Prepare um banco de desenvolvimento com as tabelas e colunas esperadas pelas consultas PHP. **O repositório não inclui um arquivo SQL para criar o esquema**, portanto será necessário obtê-lo ou reconstruí-lo a partir do código.
-4. Configure uma conexão local em `conectar.php`, sem publicar suas credenciais. Revise também as consultas que referenciam um nome de banco explicitamente para que correspondam ao ambiente criado.
+4. Configure as variáveis de ambiente `DB_HOST`, `DB_NAME`, `DB_USER` e `DB_PASSWORD` com os dados do banco de desenvolvimento antes de iniciar o PHP. Revise também as consultas que referenciam um nome de banco explicitamente para que correspondam ao ambiente criado. Não publique senhas no repositório.
 5. Na pasta do projeto, inicie o servidor de desenvolvimento:
 
    ```bash
@@ -35,4 +35,3 @@ Site desenvolvido em PHP para apresentação e administração de veículos. O p
 - Arquivos `*_form.php`, `*_list.php`, `*_post.php` e `*_delete.php` — telas e operações de cadastro.
 - `conectar.php` — conexão com o banco.
 - `style.css`, `imgs/` e `font/` — aparência e recursos visuais.
-
